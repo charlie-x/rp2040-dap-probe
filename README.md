@@ -34,6 +34,7 @@ the pins on the badge looking from top to bottom are
 unfortunately J2's SWD pins are swapped clk/swdio are reversed
 
 ![image](https://github.com/user-attachments/assets/fef64fe5-3623-4f0d-aad6-f1414882bdf2)
+![image](https://github.com/user-attachments/assets/86c11616-3fd3-40bc-9a72-4dd45a48aad7)
 
 the onboard rp2040's SWD pins are the three pins on the header.
 <img width="521" alt="image" src="https://github.com/user-attachments/assets/719ec0ec-8e86-414b-a887-2d8d45d1e7d7" />

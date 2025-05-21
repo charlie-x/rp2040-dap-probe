@@ -102,14 +102,14 @@ uint8_t const * tud_descriptor_configuration_cb(uint8_t index)
 // String Descriptors
 //--------------------------------------------------------------------+
 
-char unique_id[17] = "0000000000000000";
+char unique_id[17] = "00000000000000032";
 
 // array of pointer to string descriptors
 char const* string_desc_arr [] =
 {
   [STRID_LANGID]       = (const char[]) { 0x09, 0x04 }, // supported language is English (0x0409)
   [STRID_PRODUCT]      = "CMSIS-DAP",                   // Product
-  [STRID_MANUFACTURER] = "01Space",                     // Manufacturer
+  [STRID_MANUFACTURER] = "NullSpaceLabs",                     // Manufacturer
   [STRID_SERIAL]       = (const char *)unique_id,       // Serial
   [STRID_HID] 		   = "HID",               			// HID
   [STRID_VENDOR]       = "WebUSB",            			// VENDOR

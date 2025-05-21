@@ -21,3 +21,15 @@ The project depends on [CMSIS 5](https://github.com/ARM-software/CMSIS_5), which
 
 This code is published under the [MIT license](https://opensource.org/licenses/MIT).
 
+## Notes -- Pinouts and info for RP2004 are here with the official dap
+
+https://www.raspberrypi.com/documentation/microcontrollers/debug-probe.html
+
+PyOCD https://pyocd.io/ Works well and is simpel to use, openocd is a little painful to use
+
+the pins on the badge lookin from top to bottom are 
+<img width="382" alt="image" src="https://github.com/user-attachments/assets/dc91f45f-e77b-41c2-984c-b73d73446cc2" />
+
+the onboard rp2040's SWD are the three pins on the header.
+<img width="521" alt="image" src="https://github.com/user-attachments/assets/719ec0ec-8e86-414b-a887-2d8d45d1e7d7" />
+

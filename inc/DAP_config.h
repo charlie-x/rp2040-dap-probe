@@ -154,8 +154,8 @@ static const char TargetDeviceVendor [] = TARGET_DEVICE_VENDOR;
 static const char TargetDeviceName   [] = TARGET_DEVICE_NAME;
 #endif
 
-static const char TargetBoardVendor    [] = "01Space";
-static const char TargetBoardName      [] = "RP2040-LCD";
+static const char TargetBoardVendor    [] = "NullSpaceLabs";
+static const char TargetBoardName      [] = "LayerOne";
 static const char BoardFirmwareVersion [] = "1.0";
 
 /** Get Vendor Name string.
@@ -295,9 +295,9 @@ of the same I/O port. The following SWDIO I/O Pin functions are provided:
 
 #include "hardware/gpio.h"
 
-#define GPIO_SWDCLK_PIN     4
-#define GPIO_SWDIO_PIN      5
-#define GPIO_nRESET_PIN     6
+#define GPIO_SWDCLK_PIN     16
+#define GPIO_SWDIO_PIN      18
+#define GPIO_nRESET_PIN     12 // blue led
 
 
 // Configure DAP I/O pins ------------------------------

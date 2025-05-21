@@ -155,7 +155,7 @@ static const char TargetDeviceName   [] = TARGET_DEVICE_NAME;
 #endif
 
 static const char TargetBoardVendor    [] = "NullSpaceLabs";
-static const char TargetBoardName      [] = "LayerOne";
+static const char TargetBoardName      [] = "layerOne";
 static const char BoardFirmwareVersion [] = "1.0";
 
 /** Get Vendor Name string.
